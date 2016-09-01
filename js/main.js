@@ -1,4 +1,5 @@
 // Random Quote Generator
+//  Coded by Eralp Kor
 
  var quote;
  var author;
