@@ -24,7 +24,7 @@ $(document).ready(function() {
 					} else {
 						$("#author").text("- unknown -");
 				}
-				console.log(response.quoteText + "--" +response.quoteAuthor)
+				//console.log(response.quoteText + "--" +response.quoteAuthor)
 			}
 		});
 	}
