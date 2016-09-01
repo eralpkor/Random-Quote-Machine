@@ -36,8 +36,8 @@ hr{
 	max-height: auto;
 	background: #D9F7D0;
 }
-.btn-lg, .btn-group-lg > .btn {
-    width: 175px;
+.btn-md, .btn-group-lg > .btn {
+    
     margin: 10px
   }
   .signature{
@@ -64,6 +64,7 @@ hr{
 @media (min-width: 768px) and (max-width: 991px) {
 	.container{
 		padding-top: 30px;
+
 	}
 }
 /********** Medium devices only **********/
@@ -72,7 +73,12 @@ hr{
 		padding-top: 30px;
 	}
 }
-
+/********** Large devices only **********/
+@media (min-width: 1200px){
+	.container{
+		padding-top: 100px;
+	}
+}
 
 .hero h1{
 	color: white;

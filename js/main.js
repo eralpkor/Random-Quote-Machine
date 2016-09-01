@@ -28,7 +28,7 @@ $(document).ready(function() {
 		});
 	}
 	getNewQuote();
-					// event and event.preventDefault fixes page reload at click
+					
 	$(".get-quote").on("click", function(event){
 		event.preventDefault();
 		getNewQuote();
