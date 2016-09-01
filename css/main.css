@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat+Alternates';
 @import 'https://fonts.googleapis.com/css?family=Space+Mono';
 @import 'https://fonts.googleapis.com/css?family=Dancing+Script';
-
+@import 'https://fonts.googleapis.com/css?family=Cardo:700';
 /**{
 box-sizing: border-box;
 }*/
@@ -9,9 +9,11 @@ body{
 	background-image: url(../img/pentagon.png);
 	background-repeat: repeat;
 }
-body, h1, h3, p{
+body, h1, h3{
 	font-family: 'Montserrat Alternates', sans-serif;
-	
+}
+p{
+	font-family: 'Cardo', serif;
 }
 h1, h3{
 	text-shadow: 2px 2px grey;
@@ -96,46 +98,3 @@ hr{
 
 
 
-
-
-/********** Large devices only **********/
-@media (min-width: 1200px){
-.hero{
-	background: url(http://res.cloudinary.com/default-ek/image/upload/e_brightness:0/v1469635008/coding-924920_1920_x2ewov.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 700px;
-	max-height: 800px;
-}
-}
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px){
-	.hero{
-		background: url(http://res.cloudinary.com/default-ek/image/upload/c_scale,w_1200/v1469635008/coding-924920_1920_x2ewov.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 500px;
-		max-height: 550px;
-	}
-}
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-	.hero{
-		background: url(http://res.cloudinary.com/default-ek/image/upload/c_scale,w_768/v1469635008/coding-924920_1920_x2ewov.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 500px;
-	}
-}
-/********* Extra small devices **********/
-@media (max-width: 767px){
-	.hero{
-		background: url(http://res.cloudinary.com/default-ek/image/upload/c_scale,w_768/v1469635008/coding-924920_1920_x2ewov.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 350px;
-	}
-	.hero h1 p{
-		font-size: 5vw;
-	}
-}
