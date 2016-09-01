@@ -1,13 +1,4 @@
-
-// document.getElementById("test").addEventListener("click", function( event ) {
-//     // display the current click count inside the clicked div
-//     event.target.innerHTML = "click count: " + event.detail;
-//   }, false);
-
-// // JQuery same thing what top one does
-// $("#test").click(function(event)){
-// 	//some code here
-// });
+// Random Quote Generator
 
  var quote;
  var author;
