@@ -9,11 +9,8 @@ body{
 	background-image: url(../img/pentagon.png);
 	background-repeat: repeat;
 }
-body, h1, h3{
+body, h1, h3, p{
 	font-family: 'Montserrat Alternates', sans-serif;
-}
-p{
-	font-family: 'Cardo', serif;
 }
 h1, h3{
 	text-shadow: 2px 2px grey;
