@@ -1,9 +1,9 @@
 // Random Quote Generator
 //  Coded by Eralp Kor
 
- var quote;
- var author;
-
+var quote;
+var author;
+var quotesFrom = 'https://goo.gl/acLgHM'
 $(document).ready(function() {
 	function getNewQuote() {
 		$.ajax({
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 	$(".share-quote").on("click", function(event){
 		event.preventDefault();
-		window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(quote + " -- " + author));
+		window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(quote + " -- " + author + "\n" + quotesFrom));
 	})
 });
 
